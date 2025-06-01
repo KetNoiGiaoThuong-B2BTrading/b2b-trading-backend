@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj": {}
+    "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj": {
+    "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
+        "projectUniqueName": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
         "projectName": "API_KETNOIGIAOTHUONG",
-        "projectPath": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
+        "projectPath": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
         "packagesPath": "C:\\Users\\MSI PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\obj\\",
+        "outputPath": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

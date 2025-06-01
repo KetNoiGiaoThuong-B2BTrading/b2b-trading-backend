@@ -50,7 +50,7 @@ CREATE TABLE UserAccount (
     FullName NVARCHAR(100) NOT NULL,
     Email NVARCHAR(100) NOT NULL UNIQUE,
     Password NVARCHAR(255) NOT NULL,
-    Role NVARCHAR(50) NOT NULL CHECK (Role IN (N'Admin', N'CompanyManager', N'CompanyStaff', N'ApprovalUser')),
+    Role NVARCHAR(50) NOT NULL CHECK (Role IN (N'Admin', N'User')),
     Status NVARCHAR(20) NOT NULL DEFAULT 'Active',
     CONSTRAINT FK_UserAccount_Company FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID) ON DELETE CASCADE
 );
@@ -250,10 +250,10 @@ VALUES
 -- Dữ liệu mẫu bảng UserAccount
 INSERT INTO UserAccount (CompanyID, FullName, Email, Password, Role, Status)
 VALUES
-(1, N'Nguyễn Văn A', N'admin@abc-tech.com', N'hashedpassword1', N'Admin', N'Active'),
-(1, N'Trần Văn B', N'manager@abc-tech.com', N'hashedpassword2', N'CompanyManager', N'Active'),
-(2, N'Phạm Thị C', N'staff@xyzproduction.vn', N'hashedpassword3', N'CompanyStaff', N'Active'),
-(3, N'Lê Văn D', N'approver@defservices.vn', N'hashedpassword4', N'ApprovalUser', N'Active');
+(1, N'Nguyễn Văn A', N'admin@abc-tech.com', CONVERT(VARCHAR(64), HASHBYTES('SHA2_256', '123456'), 2), N'Admin', N'Active'),
+(1, N'Trần Văn B', N'manager@abc-tech.com', CONVERT(VARCHAR(64), HASHBYTES('SHA2_256', '123456'), 2), N'User', N'Active'),
+(2, N'Phạm Thị C', N'staff@xyzproduction.vn',  CONVERT(VARCHAR(64), HASHBYTES('SHA2_256', '123456'), 2), N'User', N'Active'),
+(3, N'Lê Văn D', N'approver@defservices.vn',  CONVERT(VARCHAR(64), HASHBYTES('SHA2_256', '123456'), 2), N'User', N'Active');
 
 -- Dữ liệu mẫu bảng Category
 INSERT INTO Category (CategoryName, ParentCategoryID, ImageCategoly)
@@ -332,3 +332,5 @@ INSERT INTO Notification (UserID, Title, Content, CreatedDate, IsRead)
 VALUES
 (1, N'Yêu cầu báo giá mới', N'Bạn có một yêu cầu báo giá mới từ Công ty XYZ.', GETDATE(), 0),
 (2, N'Hợp đồng đã được ký', N'Hợp đồng mua bán điện thoại ABC đã được ký thành công.', DATEADD(hour, -3, GETDATE()), 1);
+
+

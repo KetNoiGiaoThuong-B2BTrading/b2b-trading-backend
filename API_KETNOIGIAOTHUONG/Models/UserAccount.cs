@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_KETNOIGIAOTHUONG.Models
 {
+    [Table("UserAccount")] // ⚠️ Cố định tên bảng không dùng số nhiều
     public class UserAccount
     {
         [Key]
@@ -21,14 +22,11 @@ namespace API_KETNOIGIAOTHUONG.Models
         public string Password { get; set; }
 
         [Required, MaxLength(50)]
-        public string Role { get; set; }  // Consider Enum for role
+        public string Role { get; set; }
 
         [MaxLength(20)]
         public string Status { get; set; } = "Active";
 
         public Company Company { get; set; }
-
-      
     }
-
 }

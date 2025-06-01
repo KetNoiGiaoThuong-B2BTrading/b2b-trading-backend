@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_KETNOIGIAOTHUONG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3285de698d25d8d415708e8469c441c4805b8cfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_KETNOIGIAOTHUONG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_KETNOIGIAOTHUONG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

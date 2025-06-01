@@ -1,153 +1,165 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\",
+  "WorkspaceRootPath": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\api_ketnoigiaothuong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\api_ketnoigiaothuong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\data\\kngtcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\data\\kngtcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\data\\kngtcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\data\\kngtcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\quotationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\quotationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\quotationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\quotationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\periodictransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\periodictransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\investmentround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\investmentround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\companydocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\companydocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\transactionhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\transactionhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\periodictransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\periodictransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\investmentroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\investmentroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\quotationresponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\quotationresponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\quotationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\quotationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|c:\\users\\msi pc\\source\\repos\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\api_ketnoigiaothuong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\api_ketnoigiaothuong.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\quotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\dtos\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\dtos\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\quotationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\quotationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\quotationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\quotationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\periodictransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\periodictransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\investmentround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\investmentround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\models\\companydocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\models\\companydocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\transactionhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\transactionhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\periodictransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\periodictransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\investmentroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\investmentroundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\contractcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\quotationresponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\quotationresponsecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\quotationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\quotationrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|f:\\thuctaphk8\\api_ketnoigiaothuong\\api_ketnoigiaothuong\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8E3414E-7D82-425F-9AA8-E06F672934A6}|API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj|solutionrelative:api_ketnoigiaothuong\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -167,10 +179,126 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAjwC8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:33:32.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Category.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Category.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Category.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:11:26.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Auth.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\DTOs\\Auth.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Auth.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\DTOs\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:34:51.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T19:32:08.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAccount.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:10:58.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KNGTContext.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA3wB4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:07:12.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:29:12.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:22:41.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Company.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Company.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Company.cs",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Company.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T16:10:02.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "API_KETNOIGIAOTHUONG",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-01T19:03:48.279Z",
@@ -178,11 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "CompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\CompanyController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\CompanyController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\CompanyController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\CompanyController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\CompanyController.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAswJMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,47 +319,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "KNGTContext.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Data\\KNGTContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB0AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:07:12.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Company.cs",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Company.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Company.cs",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Company.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwCUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:10:02.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Category.cs",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Category.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:11:26.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Company.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Company.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\DTOs\\Company.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Company.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Company.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\DTOs\\Company.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAqwAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +331,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Product.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Product.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\DTOs\\Product.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Product.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Product.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\DTOs\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,11 +343,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\appsettings.json",
+              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\appsettings.json",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\appsettings.json",
+              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T16:54:52.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Quotation.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Quotation.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Quotation.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\DTOs\\Quotation.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Quotation.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\Quotation.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\DTOs\\Quotation.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,23 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\DTOs\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:22:41.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "TransactionHistory.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\TransactionHistory.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\TransactionHistory.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\TransactionHistory.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\TransactionHistory.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\TransactionHistory.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\TransactionHistory.cs",
               "ViewState": "AgIAABQAAAAAAAAAAADwvxkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -287,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "QuotationRequest.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationRequest.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationRequest.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\QuotationRequest.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationRequest.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationRequest.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\QuotationRequest.cs",
               "ViewState": "AgIAABwAAAAAAAAAAADwvyIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "QuotationResponse.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationResponse.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationResponse.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\QuotationResponse.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationResponse.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\QuotationResponse.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\QuotationResponse.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAswBkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,23 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserAccount.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\UserAccount.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwB4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:10:58.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Shipment.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Shipment.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Shipment.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Shipment.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Shipment.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Shipment.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Shipment.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Review.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Review.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Review.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Review.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Review.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Review.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAwwB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -347,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Product.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Product.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Product.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Product.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Product.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAiwCkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -359,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "PeriodicTransaction.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\PeriodicTransaction.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\PeriodicTransaction.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\PeriodicTransaction.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\PeriodicTransaction.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\PeriodicTransaction.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\PeriodicTransaction.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Payment.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Payment.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Payment.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Payment.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAywBsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Notification.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Notification.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Notification.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Notification.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAUwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -395,11 +476,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "InvestmentRound.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\InvestmentRound.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\InvestmentRound.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\InvestmentRound.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\InvestmentRound.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\InvestmentRound.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\InvestmentRound.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAA6wDEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +488,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Contract.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Contract.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Contract.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\Contract.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Contract.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\Contract.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\Contract.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAmwCsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -419,11 +500,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "CompanyDocument.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\CompanyDocument.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\CompanyDocument.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Models\\CompanyDocument.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\CompanyDocument.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Models\\CompanyDocument.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Models\\CompanyDocument.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -431,11 +512,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\NotificationController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\NotificationController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\NotificationController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\NotificationController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwBsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,11 +524,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Properties\\launchSettings.json",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Properties\\launchSettings.json",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -455,23 +536,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\appsettings.json",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\appsettings.json",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\appsettings.json",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-01T16:54:52.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Program.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Program.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Program.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Program.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Program.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -479,11 +548,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "TransactionHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\TransactionHistoryController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\TransactionHistoryController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\TransactionHistoryController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\TransactionHistoryController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\TransactionHistoryController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\TransactionHistoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -491,11 +560,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "InvestmentRoundController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\InvestmentRoundController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\InvestmentRoundController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\InvestmentRoundController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\InvestmentRoundController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\InvestmentRoundController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\InvestmentRoundController.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -503,11 +572,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "PeriodicTransactionController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PeriodicTransactionController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PeriodicTransactionController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\PeriodicTransactionController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PeriodicTransactionController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PeriodicTransactionController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\PeriodicTransactionController.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -515,11 +584,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ReviewController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ReviewController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ReviewController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\ReviewController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAYwCUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -527,11 +596,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "ShipmentController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ShipmentController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ShipmentController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\ShipmentController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ShipmentController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ShipmentController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\ShipmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -539,11 +608,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PaymentController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PaymentController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\PaymentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,11 +620,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "ContractController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ContractController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ContractController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\ContractController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ContractController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ContractController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\ContractController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAawDEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -563,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "QuotationResponseController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationResponseController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationResponseController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\QuotationResponseController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationResponseController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationResponseController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\QuotationResponseController.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -575,11 +644,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "QuotationRequestController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationRequestController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationRequestController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\QuotationRequestController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationRequestController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\QuotationRequestController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\QuotationRequestController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -587,23 +656,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:29:12.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "API_KETNOIGIAOTHUONG\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\MSI PC\\source\\repos\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ProductController.cs",
+              "ToolTip": "F:\\THUCTAPHK8\\API_KETNOIGIAOTHUONG\\API_KETNOIGIAOTHUONG\\Controllers\\ProductController.cs",
               "RelativeToolTip": "API_KETNOIGIAOTHUONG\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
