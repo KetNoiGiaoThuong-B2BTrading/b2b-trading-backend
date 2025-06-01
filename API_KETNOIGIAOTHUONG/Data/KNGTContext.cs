@@ -29,6 +29,7 @@ namespace API_KETNOIGIAOTHUONG.Data
 
             modelBuilder.Entity<Company>().ToTable("Company", "dbo");
             modelBuilder.Entity<UserAccount>().ToTable("UserAccount","dbo"); // ⚠️ Không "s"
+            modelBuilder.Entity<Category>().ToTable("Category", "dbo"); // ⚠️ Không "s"
 
             //// Danh mục cha - con (Category)
             //modelBuilder.Entity<Category>()

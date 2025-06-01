@@ -35,6 +35,7 @@ public class AuthController : ControllerBase
         {
             user.UserID,
             user.FullName,
+            
             user.Email,
             user.Role,
             user.CompanyID
