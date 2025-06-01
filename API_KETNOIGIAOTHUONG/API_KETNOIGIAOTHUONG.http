@@ -1,0 +1,6 @@
+@API_KETNOIGIAOTHUONG_HostAddress = http://localhost:5005
+
+GET {{API_KETNOIGIAOTHUONG_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
