@@ -10,7 +10,7 @@ namespace API_KETNOIGIAOTHUONG.Controllers
     {
         // API đăng ký người dùng mới
         [HttpPost("register")]
-        public IActionResult Register([FromBody] RegisterUserDTO dto)
+        public IActionResult Register([FromBody] API_KETNOIGIAOTHUONG.DTOs.User.UserRegisterDTO dto)
         {
             return Ok("Đăng ký người dùng thành công");
         }
