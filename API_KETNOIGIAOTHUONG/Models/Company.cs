@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace API_KETNOIGIAOTHUONG.Models
 {
@@ -38,7 +39,8 @@ namespace API_KETNOIGIAOTHUONG.Models
         public string ImageCompany { get; set; }
 
         // Navigation Properties
-
+        public ICollection<Product> Products { get; set; }
+        public ICollection<UserAccount> UserAccounts { get; set; }
+        public ICollection<CompanyDocument> CompanyDocuments { get; set; }
     }
-
 }
