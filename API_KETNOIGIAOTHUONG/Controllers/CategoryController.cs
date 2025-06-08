@@ -135,20 +135,34 @@ public class CategoryController : ControllerBase
         return NoContent();
     }
 
-    // DELETE: api/Category/5
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteCategory(int id)
+     // Xem sản phẩm thuộc danh mục
+    [HttpGet("{categoryId}/products")]
+    public async Task<IActionResult> GetProductsByCategory(int categoryId)
     {
-        var category = await _context.Categories.FindAsync(id);
-        if (category == null)
-        {
-            return NotFound();
-        }
-
-        _context.Categories.Remove(category);
+        var products = await _context.Products
+            .Where(p => p.CategoryID == categoryId)
+            .ToListAsync();
+        return Ok(products);
+    }
+    // Thêm danh mục
+    [HttpPost("add")]
+    public async Task<IActionResult> Create(Category model)
+    {
+        _context.Categories.Add(model);
         await _context.SaveChangesAsync();
+        return Ok(model);
+    }
 
-        return NoContent();
+    // Xóa danh mục
+    [HttpDelete("delete/{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var cat = await _context.Categories.FindAsync(id);
+        if (cat == null) return NotFound();
+
+        _context.Categories.Remove(cat);
+        await _context.SaveChangesAsync();
+        return Ok();
     }
 
     private bool CategoryExists(int id)

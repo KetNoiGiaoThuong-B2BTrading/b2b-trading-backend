@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace API_KETNOIGIAOTHUONG.Models
 {
-    [Table("UserAccount")] // ⚠️ Cố định tên bảng không dùng số nhiều
+   
     public class UserAccount
     {
         [Key]

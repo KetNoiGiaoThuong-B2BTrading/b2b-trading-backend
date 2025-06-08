@@ -1,6 +1,11 @@
 ﻿// Controllers/ProductController.cs
-using Microsoft.AspNetCore.Mvc;
+using API_KETNOIGIAOTHUONG.Data;
 using API_KETNOIGIAOTHUONG.DTOs.Product;
+using API_KETNOIGIAOTHUONG.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
+using static API_KETNOIGIAOTHUONG.DTOs.Product.ProductResponseDTO;
 
 namespace API_KETNOIGIAOTHUONG.Controllers
 {
@@ -8,39 +13,113 @@ namespace API_KETNOIGIAOTHUONG.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        // API tạo sản phẩm mới
-        [HttpPost("create")]
-        public IActionResult CreateProduct([FromBody] CreateProductDTO dto)
+        private readonly KNGTContext _context;
+        public ProductController(KNGTContext context)
         {
-            return Ok("Tạo sản phẩm thành công");
+            _context = context;
         }
 
-        // API lấy thông tin sản phẩm theo ID
+        // GET: api/Product
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ProductResponseDTO>>> GetAllProducts()
+        {
+            var products = await _context.Products
+                .Include(p => p.Company)
+              
+                .ToListAsync();
+
+            var result = products.Select(p => new ProductResponseDTO
+            {
+                ProductID = p.ProductID,
+                ProductName = p.ProductName,
+                Description = p.Description,
+                UnitPrice = (double)p.UnitPrice,  // ép kiểu decimal -> double
+                StockQuantity = p.StockQuantity,
+                Status = p.Status,
+                Image = p.Image,
+                CreatedDate = p.CreatedDate,
+               
+            }).ToList();
+
+            return Ok(result);
+        }
+
+        // GET: api/Product/5
         [HttpGet("{id}")]
-        public IActionResult GetProduct(int id)
+        public async Task<ActionResult<ProductResponseDTO>> GetProductById(int id)
         {
-            return Ok(new ProductResponseDTO { ProductID = id });
+            var p = await _context.Products
+                .Include(p => p.Company)
+      
+                .FirstOrDefaultAsync(p => p.ProductID == id);
+
+            if (p == null)
+                return NotFound();
+
+            var result = new ProductResponseDTO
+            {
+                ProductID = p.ProductID,
+                ProductName = p.ProductName,
+                Description = p.Description,
+                UnitPrice = (double)p.UnitPrice,
+                StockQuantity = p.StockQuantity,
+                Status = p.Status,
+                Image = p.Image,
+                CreatedDate = p.CreatedDate
+            };
+
+            return Ok(result);
         }
 
-        // API cập nhật thông tin sản phẩm
+        // POST: api/Product
+        [HttpPost]
+        public async Task<ActionResult<Product>> CreateProduct(Product product)
+        {
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetProductById), new { id = product.ProductID }, product);
+        }
+
+        // PUT: api/Product/5
         [HttpPut("{id}")]
-        public IActionResult UpdateProduct(int id, [FromBody] UpdateProductDTO dto)
+        public async Task<IActionResult> UpdateProduct(int id, Product product)
         {
-            return Ok("Cập nhật sản phẩm thành công");
+            if (id != product.ProductID)
+                return BadRequest("ID không khớp");
+
+            var existingProduct = await _context.Products.FindAsync(id);
+            if (existingProduct == null)
+                return NotFound();
+
+            existingProduct.ProductName = product.ProductName;
+            existingProduct.Description = product.Description;
+            existingProduct.UnitPrice = product.UnitPrice;
+            existingProduct.StockQuantity = product.StockQuantity;
+            existingProduct.Status = product.Status;
+            existingProduct.Image = product.Image;
+           
+           
+            existingProduct.CreatedDate = product.CreatedDate;
+
+            await _context.SaveChangesAsync();
+            return NoContent();
         }
 
-        // API xoá sản phẩm
+        // DELETE: api/Product/5
         [HttpDelete("{id}")]
-        public IActionResult DeleteProduct(int id)
+        public async Task<IActionResult> DeleteProduct(int id)
         {
-            return Ok("Xoá sản phẩm thành công");
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound();
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        // API danh sách sản phẩm theo công ty
-        [HttpGet("company/{companyId}")]
-        public IActionResult GetProductsByCompany(int companyId)
-        {
-            return Ok();
-        }
+
     }
 }
