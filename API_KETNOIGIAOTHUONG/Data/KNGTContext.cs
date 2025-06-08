@@ -30,6 +30,28 @@ namespace API_KETNOIGIAOTHUONG.Data
             modelBuilder.Entity<Company>().ToTable("Company", "dbo");
             modelBuilder.Entity<UserAccount>().ToTable("UserAccount","dbo"); // ⚠️ Không "s"
             modelBuilder.Entity<Category>().ToTable("Category", "dbo"); // ⚠️ Không "s"
+            modelBuilder.Entity<Product>().ToTable("Product", "dbo");
+
+            // Công ty - Sản phẩm (Company - Product)
+            modelBuilder.Entity<Company>()
+                .HasMany(c => c.Products)
+                .WithOne(p => p.Company)
+                .HasForeignKey(p => p.CompanyID)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Sản phẩm - Danh mục (Product - Category)
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Products)
+                .HasForeignKey(p => p.CategoryID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Sản phẩm - Người duyệt (Product - UserAccount)
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.ApprovedByUser)
+                .WithMany()
+                .HasForeignKey(p => p.ApprovedBy)
+                .OnDelete(DeleteBehavior.Restrict);
 
             //// Danh mục cha - con (Category)
             //modelBuilder.Entity<Category>()
@@ -51,20 +73,6 @@ namespace API_KETNOIGIAOTHUONG.Data
             //    .WithOne(u => u.Company)
             //    .HasForeignKey(u => u.CompanyID)
             //    .OnDelete(DeleteBehavior.Cascade);
-
-            //// Công ty - Sản phẩm (Company - Product)
-            //modelBuilder.Entity<Company>()
-            //    .HasMany(c => c.Products)
-            //    .WithOne(p => p.Company)
-            //    .HasForeignKey(p => p.CompanyID)
-            //    .OnDelete(DeleteBehavior.Cascade);
-
-            //// Sản phẩm - Danh mục (Product - Category)
-            //modelBuilder.Entity<Product>()
-            //    .HasOne(p => p.Category)
-            //    .WithMany(c => c.Products)
-            //    .HasForeignKey(p => p.CategoryID)
-            //    .OnDelete(DeleteBehavior.Restrict);
 
             ////// Báo giá yêu cầu - Người tạo (QuotationRequest - UserAccount)
             ////modelBuilder.Entity<QuotationRequest>()

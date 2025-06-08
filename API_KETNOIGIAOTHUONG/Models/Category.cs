@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace API_KETNOIGIAOTHUONG.Models
 {
@@ -18,7 +19,8 @@ namespace API_KETNOIGIAOTHUONG.Models
 
         public string ImageCategoly { get; set; }
 
-
+        // Navigation Properties
+        public ICollection<Product> Products { get; set; }
+        public ICollection<Category> SubCategories { get; set; }
     }
-
 }
