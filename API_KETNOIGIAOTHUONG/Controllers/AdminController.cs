@@ -232,6 +232,29 @@ namespace API_KETNOIGIAOTHUONG.Controllers
             return Ok(category);
         }
 
+        [HttpDelete("Categories/{id}")]
+        public async Task<IActionResult> DeleteCategory(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+                return NotFound();
+
+            // Kiểm tra xem có danh mục con không
+            var hasSubCategories = await _context.Categories.AnyAsync(c => c.ParentCategoryID == id);
+            if (hasSubCategories)
+                return BadRequest("Không thể xóa danh mục này vì nó có danh mục con");
+
+            // Kiểm tra xem có sản phẩm nào thuộc danh mục này không
+            var hasProducts = await _context.Products.AnyAsync(p => p.CategoryID == id);
+            if (hasProducts)
+                return BadRequest("Không thể xóa danh mục này vì nó có sản phẩm");
+
+            _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
+
+            return Ok();
+        }
+
         // Contract Management APIs
         [HttpGet("Contracts")]
         public async Task<IActionResult> GetAllContracts()
