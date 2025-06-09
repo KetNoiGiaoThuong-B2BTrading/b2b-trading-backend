@@ -1,5 +1,6 @@
 using API_KETNOIGIAOTHUONG.Data;
 using API_KETNOIGIAOTHUONG.Models;
+using API_KETNOIGIAOTHUONG.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -200,12 +201,35 @@ namespace API_KETNOIGIAOTHUONG.Controllers
         }
 
         [HttpPost("Categories")]
-        public async Task<IActionResult> CreateCategory([FromBody] Category category)
+        public async Task<IActionResult> CreateCategory([FromBody] CategoryCreateDto categoryDto)
         {
+            var category = new Category
+            {
+                CategoryName = categoryDto.CategoryName,
+                ParentCategoryID = categoryDto.ParentCategoryID,
+                ImageCategoly = categoryDto.ImageCategoly ?? "default.jpg"
+            };
+
             _context.Categories.Add(category);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetAllCategories), new { id = category.CategoryID }, category);
+        }
+
+        [HttpPut("Categories/{id}")]
+        public async Task<IActionResult> UpdateCategory(int id, [FromBody] CategoryUpdateDto categoryDto)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+                return NotFound();
+
+            category.CategoryName = categoryDto.CategoryName;
+            category.ParentCategoryID = categoryDto.ParentCategoryID;
+            category.ImageCategoly = categoryDto.ImageCategoly ?? category.ImageCategoly;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(category);
         }
 
         // Contract Management APIs
