@@ -148,7 +148,87 @@ namespace API_KETNOIGIAOTHUONG.Controllers
 
         //    return NoContent();
         //}
+        // POST: api/Product
+        [HttpPost("create")]
+        public async Task<IActionResult> CreateProduct([FromBody] CreateProductDTO dto)
+        {
+            // ✅ Kiểm tra Company tồn tại
+            var company = await _context.Companies.FindAsync(dto.CompanyID);
+            if (company == null)
+                return NotFound("Không tìm thấy công ty với ID đã cho.");
 
+            // ✅ Kiểm tra Category tồn tại
+            var category = await _context.Categories.FindAsync(dto.CategoryID);
+            if (category == null)
+                return NotFound("Không tìm thấy danh mục với ID đã cho.");
+
+            // ✅ Tạo mới sản phẩm
+            var product = new Product
+            {
+                CompanyID = dto.CompanyID,
+                CategoryID = dto.CategoryID,
+                ProductName = dto.ProductName,
+                Description = dto.Description,
+                UnitPrice = (decimal?)dto.UnitPrice,
+                StockQuantity = dto.StockQuantity,
+                Image = dto.Image,
+                Status = dto.Status ?? "Available",
+                CreatedDate = dto.CreatedDate
+            };
+
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Tạo sản phẩm thành công!",
+                product.ProductID
+            });
+        }
+        [HttpPut("update/{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] UpdateProductDTO dto)
+        {
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound("Không tìm thấy sản phẩm với ID đã cho.");
+
+            // Gán toàn bộ giá trị từ DTO vào đối tượng sản phẩm
+            product.CompanyID = dto.CompanyID;
+            product.CategoryID = dto.CategoryID;
+            product.ProductName = dto.ProductName;
+            product.Description = dto.Description;
+            product.UnitPrice = (decimal?)dto.UnitPrice;
+            product.StockQuantity = dto.StockQuantity;
+            product.Image = dto.Image;
+            product.Status = dto.Status;
+            product.CreatedDate = dto.CreatedDate;
+
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Cập nhật sản phẩm thành công!",
+                product.ProductID
+            });
+        }
+
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
+                return NotFound("Không tìm thấy sản phẩm với ID đã cho.");
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Xóa sản phẩm thành công!",
+                product.ProductID
+            });
+        }
 
     }
 }
