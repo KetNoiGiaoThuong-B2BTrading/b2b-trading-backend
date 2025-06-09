@@ -26,7 +26,7 @@
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public string VerificationStatus { get; set; }
-
+        public DateTime registrationDate { get; set; }
         public string ImageCompany { get; set; }
     }
 }

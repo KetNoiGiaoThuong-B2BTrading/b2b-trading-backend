@@ -89,6 +89,7 @@ namespace API_KETNOIGIAOTHUONG.Controllers
                 Representative = company.Representative,
                 Email = company.Email,
                 PhoneNumber = company.PhoneNumber,
+                registrationDate = company.RegistrationDate,
                 VerificationStatus = company.VerificationStatus,
                 ImageCompany = company.ImageCompany
 

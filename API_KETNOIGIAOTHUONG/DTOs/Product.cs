@@ -18,10 +18,10 @@
         public int CompanyID { get; set; }
         public int CategoryID { get; set; }
         public string ProductName { get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public double UnitPrice { get; set; }
         public int StockQuantity { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public string Status { get; set; } 
         public DateTime CreatedDate { get; set; } = DateTime.Now;
     }

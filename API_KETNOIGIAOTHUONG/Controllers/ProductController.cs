@@ -30,9 +30,9 @@ namespace API_KETNOIGIAOTHUONG.Controllers
             {
 
                 ProductID = (int)p.ProductID,
-                 CompanyID= (int)p.CompanyID,
+                CompanyID= (int)p.CompanyID,
                 CategoryID = (int)p.CategoryID,
-        ProductName = p.ProductName,
+                ProductName = p.ProductName,
 
               
 
@@ -49,16 +49,20 @@ namespace API_KETNOIGIAOTHUONG.Controllers
 
             return Ok(result);
         }
+
         // GET: api/Product
         [HttpGet("get-by-company-id/{company_id}")]
-        public async Task<ActionResult<ProductResponseDTO>> GetProductsByCompanyId(int company_id)
+        public async Task<ActionResult<IEnumerable<ProductResponseDTO>>> GetProductsByCompanyId(int company_id)
         {
-            var p = await _context.Products.Include(p => p.Company).FirstOrDefaultAsync(p => p.CompanyID == company_id);
+            var products = await _context.Products
+                .Include(p => p.Company)
+                .Where(p => p.CompanyID == company_id)
+                .ToListAsync();
 
-            if (p == null)
+            if (products == null || products.Count == 0)
                 return NotFound();
 
-            var result = new ProductResponseDTO
+            var result = products.Select(p => new ProductResponseDTO
             {
                 ProductID = (int)p.ProductID,
                 ProductName = p.ProductName,
@@ -67,11 +71,14 @@ namespace API_KETNOIGIAOTHUONG.Controllers
                 StockQuantity = (int)p.StockQuantity,
                 Status = p.Status,
                 Image = p.Image,
+                CategoryID = (int)p.CategoryID,
+                CompanyID = (int)p.CompanyID,
                 CreatedDate = (DateTime)p.CreatedDate
-            };
+            });
 
             return Ok(result);
         }
+
 
         // GET: api/Product/5
         [HttpGet("{id}")]
