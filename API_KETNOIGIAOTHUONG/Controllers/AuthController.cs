@@ -89,7 +89,7 @@ public class AuthController : ControllerBase
             PhoneNumber = dto.PhoneNumber,
             LegalDocuments = dto.LegalDocuments,
             ImageCompany = dto.ImageCompany,
-            VerificationStatus = "Pending"
+            VerificationStatus = "Chưa xác minh"
         };
 
         _context.Companies.Add(company);
@@ -101,7 +101,7 @@ public class AuthController : ControllerBase
             FullName = dto.FullName,
             Email = dto.Email,
             Password = PasswordHelper.HashPassword(dto.Password), // ✅ Mã hoá mật khẩu
-            Role = "User",
+            Role = dto.Role ?? "User",
             CompanyID = company.CompanyID,
             Status = "Active"
         };
