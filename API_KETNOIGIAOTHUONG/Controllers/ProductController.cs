@@ -49,6 +49,29 @@ namespace API_KETNOIGIAOTHUONG.Controllers
 
             return Ok(result);
         }
+        // GET: api/Product
+        [HttpGet("get-by-company-id/{company_id}")]
+        public async Task<ActionResult<ProductResponseDTO>> GetProductsByCompanyId(int company_id)
+        {
+            var p = await _context.Products.Include(p => p.Company).FirstOrDefaultAsync(p => p.CompanyID == company_id);
+
+            if (p == null)
+                return NotFound();
+
+            var result = new ProductResponseDTO
+            {
+                ProductID = (int)p.ProductID,
+                ProductName = p.ProductName,
+                Description = p.Description,
+                UnitPrice = (double)p.UnitPrice,
+                StockQuantity = (int)p.StockQuantity,
+                Status = p.Status,
+                Image = p.Image,
+                CreatedDate = (DateTime)p.CreatedDate
+            };
+
+            return Ok(result);
+        }
 
         // GET: api/Product/5
         [HttpGet("{id}")]
@@ -77,54 +100,54 @@ namespace API_KETNOIGIAOTHUONG.Controllers
             return Ok(result);
         }
 
-        // POST: api/Product
-        [HttpPost]
-        public async Task<ActionResult<Product>> CreateProduct(Product product)
-        {
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
+        ////POST: api/Product
+        //[HttpPost("create")]
+        //public async Task<ActionResult<Product>> CreateProduct(Product product)
+        //{
+        //    _context.Products.Add(product);
+        //    await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetProductById), new { id = product.ProductID }, product);
-        }
+        //    return CreatedAtAction(nameof(GetProductById), new { id = product.ProductID }, product);
+        //}
 
-        // PUT: api/Product/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, Product product)
-        {
-            if (id != product.ProductID)
-                return BadRequest("ID không khớp");
+        //// PUT: api/Product/5
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> UpdateProduct(int id, Product product)
+        //{
+        //    if (id != product.ProductID)
+        //        return BadRequest("ID không khớp");
 
-            var existingProduct = await _context.Products.FindAsync(id);
-            if (existingProduct == null)
-                return NotFound();
+        //    var existingProduct = await _context.Products.FindAsync(id);
+        //    if (existingProduct == null)
+        //        return NotFound();
 
-            existingProduct.ProductName = product.ProductName;
-            existingProduct.Description = product.Description;
-            existingProduct.UnitPrice = product.UnitPrice;
-            existingProduct.StockQuantity = product.StockQuantity;
-            existingProduct.Status = product.Status;
-            existingProduct.Image = product.Image;
+        //    existingProduct.ProductName = product.ProductName;
+        //    existingProduct.Description = product.Description;
+        //    existingProduct.UnitPrice = product.UnitPrice;
+        //    existingProduct.StockQuantity = product.StockQuantity;
+        //    existingProduct.Status = product.Status;
+        //    existingProduct.Image = product.Image;
 
 
-            existingProduct.CreatedDate = product.CreatedDate;
+        //    existingProduct.CreatedDate = product.CreatedDate;
 
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
+        //    await _context.SaveChangesAsync();
+        //    return NoContent();
+        //}
 
-        // DELETE: api/Product/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduct(int id)
-        {
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
-                return NotFound();
+        //// DELETE: api/Product/5
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteProduct(int id)
+        //{
+        //    var product = await _context.Products.FindAsync(id);
+        //    if (product == null)
+        //        return NotFound();
 
-            _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
+        //    _context.Products.Remove(product);
+        //    await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
 
     }
