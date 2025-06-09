@@ -1,4 +1,4 @@
-﻿// Controllers/ProductController.cs
+// Controllers/ProductController.cs
 using API_KETNOIGIAOTHUONG.Data;
 using API_KETNOIGIAOTHUONG.DTOs.Product;
 using API_KETNOIGIAOTHUONG.Models;
@@ -28,14 +28,22 @@ namespace API_KETNOIGIAOTHUONG.Controllers
 
             var result = products.Select(p => new ProductResponseDTO
             {
+
                 ProductID = (int)p.ProductID,
-                ProductName = p.ProductName,
+                 CompanyID= (int)p.CompanyID,
+                CategoryID = (int)p.CategoryID,
+        ProductName = p.ProductName,
+
+              
+
                 Description = p.Description,
                 UnitPrice = (double)p.UnitPrice,  // ép kiểu decimal -> double
                 StockQuantity = (int)p.StockQuantity,
                 Status = p.Status,
                 Image = p.Image,
+
                 CreatedDate = (DateTime)p.CreatedDate,
+
 
             }).ToList();
 
